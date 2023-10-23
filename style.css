@@ -205,4 +205,33 @@ p,.specializujeme, .pomuzeme{
    hr{
     margin-left: 0;
    }
+  .karty{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .karta p{
+    padding-bottom: 40px;
+  }
+  .sluzby, .sluzby_delegatu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .nadpis_text, .nadpis_text2{
+    order: 2;
+    flex: 0 1 calc(((100% - 60px) / 2) - 60px);
+      }
+      .karty,.karty2{
+        flex: 0 1 calc(((100% - 60px) / 2) + 60px);
+      }
+     .nadpis_text2{
+        order: -1;
+     }
+     .posledni{
+        margin-bottom: 20px;
+     }
+     
 }
